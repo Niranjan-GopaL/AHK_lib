@@ -22,16 +22,3 @@ Esc::
     Send "7 lines{!}{Enter}"
     SendInput "inside the CTRL{+}J hotkey."
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
