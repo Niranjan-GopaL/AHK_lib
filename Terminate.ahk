@@ -1,3 +1,9 @@
-var := () => "My string that as many !@#$!@#$!@#$  characters"
+Persistent
+#SingleInstance Force
+counter := -1
 
-MsgBox StrLen(var())
+#n::
+{
+    counter := counter++
+    MsgBox(counter)
+}
