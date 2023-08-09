@@ -5,5 +5,6 @@
     if WinExist("Untitled - Notepad")
         WinActivate
     else
+        MsgBox "I was triggered"
         Run "Notepad"
 }
