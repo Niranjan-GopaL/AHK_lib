@@ -1,15 +1,16 @@
-﻿^j::
+﻿
+
+
++j::
 {
     Send "My First Script"
 }
-
 
 
 Esc::
 {
     MsgBox "Escape!!!!"
 }
-
 
 
 ^h::
