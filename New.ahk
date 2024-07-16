@@ -20,3 +20,20 @@ Esc::
     SendInput "inside the CTRL{+}J hotkey."
 }
 
+#^+CapsLock:: {
+    static capslockAsCtrl := false
+
+    capslockAsCtrl := !capslockAsCtrl
+
+    ; remap Caps Lock to Ctrl
+    if capslockAsCtrl {
+        Hotkey("CapsLock", Send("^"), "On")
+        Tooltip("Caps Lock is now Ctrl", , 2000)
+    }
+    ;  revert Caps Lock to its normal function
+    else {
+        Hotkey("CapsLock", Send("^"), "Off")
+        Tooltip("Caps Lock is now Caps Lock", , 2000)
+    }
+
+}

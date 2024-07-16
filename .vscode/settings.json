@@ -1,0 +1,8 @@
+{
+    "python.languageServer": "Pylance",
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportShadowedImports": "none"
+    },
+    "AutoHotkey2.InterpreterPath": "c:\\Program Files\\AutoHotkey\\v2\\AutoHotkey.exe"
+
+  }

@@ -1,4 +1,3 @@
-
 /*
 
 ; `:=` is used to assign numbers
@@ -76,7 +75,7 @@ MsgBox "Value of target is indirectly made -> " . target
 ;   =  and !=     <- case insensitive comparison
 ;   ==  and !==   <- case sensitive comparison
 
-;   there are a lot of operaters given under Variables and Expression in AN AWESOME LIST 
+;   there are a lot of operaters given under Variables and Expression in AN AWESOME LIST
 
 
 ; ARRAY  <--- it's an object
@@ -95,5 +94,5 @@ Loop veg.Length
 users := Array()
 users.Push A_UserName
 MsgBox users[1]
-    
-; alll the methodes are explained in EXTREMELY EASY TO UNDERSTAND MANNER 
+
+; alll the methodes are explained in EXTREMELY EASY TO UNDERSTAND MANNER
